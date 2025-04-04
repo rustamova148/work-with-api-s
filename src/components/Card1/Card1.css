@@ -23,5 +23,6 @@
 @media screen and (max-width: 480px){
     .card1{
         width: 270px;
+        padding: 20px;
     }
 }
