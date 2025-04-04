@@ -1,0 +1,34 @@
+.card2{
+    border: 3px solid #adc178;
+    background-color: #fddbbb;
+    width: 380px;
+    min-height: 350px;
+    padding: 20px 40px 40px 40px;
+}
+.modalfmale{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(70, 70, 70, 0.6);
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+.modalfmalebox{
+    padding: 13px;
+    background-color: white;
+    width: 300px;
+    height: 250px;
+    border-radius: 7px;
+}
+
+@media screen and (max-width: 480px){
+    .card2{
+        width: 270px;
+    }
+    .modalfmalebox{
+        width: 200px;
+    }
+}
