@@ -17,7 +17,7 @@ const Card2 = ({datafem,loading,error}) => {
   }
 
   return (
-    <div className='card2' style={{position: "relative", display: "flex",flexWrap: "wrap",gap: "15px"}}>
+    <div className='card2' style={{position: "relative", display: "flex", flexWrap: "wrap", gap: "15px"}}>
         {loading ? <p>Loading...</p> :
          error ? <p style={{color: "red"}}>{error}</p> :
          (datafem?.map((df) => (
@@ -29,13 +29,13 @@ const Card2 = ({datafem,loading,error}) => {
         }
         <button onClick={hideFmaleDatas} className="modalfmale" ref={modal}
         style={{cursor: "pointer"}}>
-            <div className="modalfmalebox">
+            <div className="modalfmalebox" style={{backgroundColor: "#f4e285"}}>
               <button onClick={hideFmaleDatas} style={{width: "20px", height: "20px", 
-              float: "right" ,cursor:"pointer"}}>X</button>
+              float: "right" , cursor:"pointer", backgroundColor: "#e63946", border: "none", color:"white"}}>X</button>
               <div className="fmalemodaldatas" style={{marginTop: "40px"}}>
                 {selectedFmale && (
                   <div>
-                    <b><p>{selectedFmale.name.title} {selectedFmale.name.first} {selectedFmale.name.last}</p></b> <br />
+                    <b><p style={{fontSize: "17px"}}>{selectedFmale.name.title} {selectedFmale.name.first} {selectedFmale.name.last}</p></b> <br />
                     <p>Country: {selectedFmale.location.country}</p>
                     <p>City: {selectedFmale.location.city}</p>
                     <p>Email: {selectedFmale.email}</p>

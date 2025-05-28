@@ -9,6 +9,7 @@
     justify-content: center;
     align-items: center;
     gap: 40px;
+    background-color: #264653;
 }
 .secondpcards{
     display: flex;

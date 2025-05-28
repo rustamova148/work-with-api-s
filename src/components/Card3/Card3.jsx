@@ -29,13 +29,13 @@ const hideMaleDatas = () => {
         }
         <button onClick={hideMaleDatas} className="modalmale" ref={modal}
         style={{cursor: "pointer"}}>
-            <div className="modalmalebox">
+            <div className="modalmalebox" style={{backgroundColor: "#f4e285"}}>
               <button onClick={hideMaleDatas} style={{width: "20px", height: "20px", 
-              float: "right", cursor:"pointer"}}>X</button>
+              float: "right", cursor:"pointer", backgroundColor: "#e63946", border: "none", color:"whitesmoke"}}>X</button>
               <div className="malemodaldatas" style={{marginTop: "40px"}}>
                 {selectedMale && (
                   <div>
-                    <b><p>{selectedMale.name.title} {selectedMale.name.first} {selectedMale.name.last}</p></b> <br />
+                    <b><p style={{fontSize: "17px"}}>{selectedMale.name.title} {selectedMale.name.first} {selectedMale.name.last}</p></b> <br />
                     <p>Country: {selectedMale.location.country}</p>
                     <p>City: {selectedMale.location.city}</p>
                     <p>Email: {selectedMale.email}</p>

@@ -12,7 +12,7 @@ return (
               <img src={d.picture.large} alt="userphoto" 
               style={{borderRadius: "50%", marginBottom: "15px"}}
               className={(d.gender === "male") ? "borderblue" : "borderpink"} />
-              <b><p>{d.name.title} {d.name.first} {d.name.last}</p></b> <br />
+              <b><p style={{fontSize: "20px"}}>{d.name.title} {d.name.first} {d.name.last}</p></b> <br />
               <p>Country: {d.location.country}</p>
               <p>City: {d.location.city}</p>
               <p>Email: {d.email}</p>

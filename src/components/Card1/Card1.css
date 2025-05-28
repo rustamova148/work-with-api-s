@@ -1,20 +1,20 @@
 .card1{
-    border: 3px solid #adc178;
-    background-color: #fddbbb;
-    width: 380px;
+    border: 3px solid #eb5e28;
+    background-color: #e9c46a;
+    width: 500px;
     min-height: 370px;
     padding: 20px 40px 40px 40px;
     margin-top: 20px;
 }
 .borderblue{
-    border: 3px solid #429EA6;
+    border: 3px solid #1a759f;
 }
 .borderpink{
-    border: 3px solid #ff7b72;
+    border: 3px solid #ff4d6d;
 }
 .generatebtn{
     cursor: pointer;
-    background-color: #adc178;
+    background-color: #2a9d8f;
     border: none;
     padding: 12px 18px;
     border-radius: 10px;
